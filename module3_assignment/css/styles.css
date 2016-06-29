@@ -1,0 +1,164 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** Header Part **/
+#header-nav {
+  background-color: #f6b219;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: -20px;
+}
+
+.navbar-brand h1 {/* Company Name */
+font-family: 'Lora', serif;
+color: #557c3e;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin: 0 0 auto;
+padding: 0 0 auto;
+line-height: .75;
+position: absolute;
+top: 10px;
+left: 30px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #E7E7E7;
+}
+#nav-list a span{
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 20px;
+}
+
+/** End of Header Part **/
+
+/** Content **/
+.container .jumbotron {
+  text-transform: uppercase;
+  margin-top: 20px; 
+  padding-bottom: 5px;
+  font-weight: bold;
+  background-color: white;
+  opacity: 1;
+  color: black;
+}
+/** End of Content **/
+
+
+/** Large device only **/
+@media (max-width: 1200px) {
+.navbar-brand h1 {/* Company Name */
+font-family: 'Lora', serif;
+color: #557c3e;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin: 0 0 auto;
+padding: 0 0 auto;
+line-height: .75;
+position: absolute;
+top: 10px;
+left: 30px;
+}
+}
+/** Large device, End **/
+
+
+/** Medium-decvices only **/
+@media (min-width: 992px) and (max-width: 1199px) {
+.navbar-brand h1 {/* Company Name */
+font-family: 'Lora', serif;
+color: #557c3e;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin: 0 0 auto;
+padding: 0 0 auto;
+line-height: .75;
+position: absolute;
+top: 10px;
+left: 30px;
+}
+}
+/** Medium devices end **/
+
+/** Small devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar-brand h1 {/* Company Name */
+font-family: 'Lora', serif;
+color: #557c3e;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin: 0 0 auto;
+padding: 0 0 auto;
+line-height: .75;
+position: absolute;
+top: 10px;
+left: 30px;
+}
+}
+/** Small devices end **/
+
+
+
+/** Extra Small Devices Only **/
+@media (max-width: 767px) {
+	 /* Header */
+  .navbar-brand h1 {/* Reastaurant Name */
+font-family: 'Lora', serif;
+color: #557c3e;
+font-size: 5vw; /* 1vw = 1% of viewport width */
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75px;
+padding-top: 10px;
+}
+      .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  height: 80px;
+}
+.navbar-toggle {
+	position: absolute;
+	right: 0px;
+}
+
+	#collapsable-nav a {/* Collapsable nav menu glyph */
+    font-size: 1.2em;
+}
+
+#collapsable-nav a span {
+font-size: 1em;
+margin-right: 5px;
+}
+}
+/** Extra Small Devices only, End **/
